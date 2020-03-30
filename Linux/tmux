@@ -1,0 +1,25 @@
+tmux - https://github.com/tmux/tmux
+
+tmux : per accedere
+tmux new -s nome sessione : per accedere nominando una sessione di lavoro
+
+si precede qualsiasi comando con Ctrl + b + comando
+
+c : nuova finestra
+w : elenco delle finestre
+, : rinomino finestra
+
+per scorrere tra le finestre:
+n : avanti di una finestra
+p : indietro di una finestra
+
+dividere una finestra:
+% : orizzontalmente
+" : verticalmente
+ci si muove tra le finestre divise nello stesso terminale, tramite i tasti ferccia
+si cancella una divisione di finestra, tramite il comando : exit
+
+d : ci si stacca dalla sessione ed esce
+
+tmux ls : indica il numero delle sessioni attive
+tmux attach -t nome sessione : si riattacca alla sessione in bg
