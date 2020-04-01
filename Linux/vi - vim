@@ -53,6 +53,7 @@ C – sostituisce fino alla fine della riga
 :1,$s/testo1/testo2/g – sostituisce testo1 con testo2 in tutto il documento. (funziona anche :%s/testo1/testo2/g) 
 n – ripete l’ultima ricerca  
 N – ripete l’ultima ricerca inversa 
+:/str/ - sposta il cursore alla prossima linea contenente str 
 :s/str1/str2/ - sostituisce la prima occorrenza di str1 sulla linea con str2 
 :%s/str1/str2/g - sostituisce la prima occorrenza di str1 con str2 globalmente nel file
 
@@ -74,7 +75,6 @@ ZZ - termina l'esecuzione di vi salvando le modifiche
 :f file - cambia il nome del contenuto corrente in file 
 :f - stampa il nome e lo stato del testo corrente 
 :n - sposta il cursore alla linea n 
-:/str/ - sposta il cursore alla prossima linea contenente str 
 set option - definisce un'opzione ,e.g. :set number aggiunge i numeri di linea  
 
 # Alcune delle opzioni più importanti 
